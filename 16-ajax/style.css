@@ -1,0 +1,9 @@
+.table i {
+    cursor: pointer;
+}
+
+.table .employee-name {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}

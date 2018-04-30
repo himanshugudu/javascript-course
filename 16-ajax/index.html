@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="row">
+            <div class="col-sm-6">
+                <h4>Create</h4>
+                <div class="form-horizontal">
+                    <div class="form-group row">
+                        <label class="col-sm-3">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3">Designation:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="designation">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3">Gender:</label>
+                        <div class="col-sm-9">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="gender" value="male"> Male
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="female"> Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" style="display:none" id="employee-id" value="">
+                    <button class="btn btn-primary" type="button" id="create-btn">Create</button>
+                    <button class="btn btn-primary" type="button" id="update-btn">Update</button>
+                    <button class="btn btn-default" type="button" id="cancel-btn">Cancel</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="row">
+            <div class="col-sm-8">
+                <h3>List</h3>
+                <table class="table" id="employee-table">
+                    <thead>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>Gender</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody style="display:none">
+                        <tr>
+                            <td colspan="3">No data</td>
+                        </tr>
+                    </tbody>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    <script src="./http.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
