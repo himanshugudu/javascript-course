@@ -17,11 +17,11 @@
 // function name
 // function arguments
 // function body
-function test(a, b) {
-    console.log('function executed...');
-    return 123;
-}
-test();
+// function test(a, b) {
+//     console.log('function executed...');
+//     return 123;
+// }
+// test();
 
 // lets create a function called CalculateSimpleInterest()
 function calculateSimpleInterest(p, t, r) {

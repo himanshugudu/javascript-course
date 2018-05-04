@@ -19,8 +19,8 @@ var var6 = null;
 var var7 = NaN;
 var var8 = [];
 var var9 = function () {};
-var var10 = undefined;
-var var11 = '';
+var var10 = 'undefined';
+var var11 = "";
 
 console.log('typeof var1 with value is : ', var1 ,' is : ', typeof var1);
 console.log('typeof var2 with value is : ', var2 ,' is : ', typeof var2);

@@ -1,0 +1,87 @@
+//variable declaration
+var value=22;
+or
+var value
+value = 42
+//premitive Types
+->number
+number is javascript are duble precision 64bit format IEEE 754 values
+var a=20;
+console.log(a);
+console print different datatype in different color
+
+string and bolean
+string are type to display text
+boolean value can eaither true or false
+
+
+loose typing for any error skip
+
+undefine:- 
+
+declaration mean what i declare the variable like
+---var value---
+definition mean is what is defin under the variable
+
+
+null :-
+
+function declaration:-
+fuction sayhello(name){
+	console.log('hello'+name);
+}
+sayhello("test");
+function test(name, timeOfday){
+	return " Hello " + name + " time of the day is " +timeOfday; 
+}
+var returnValue = test("damo","morning");
+console.log(returnValue);
+
+//function expresion:
+//function it self value in javascript
+ var a = "Hello";
+ var f = function foo(){
+ console.log("test");
+}
+f();
+anonymous function:-
+var a = function(){
+	console.log("test1");
+}
+a();
+
+a=4;
+a();//it display error because 'a' has change the value this is demerits of anonymus function
+function in argument:-
+var g =function(){
+	console.log("hello");
+};
+var execute = function(abc){
+	console.log(abc);
+}
+execute(g);
+//its print function 'g' but i need to see output of 1st function for that 
+var g = function(){
+	console.log("test");
+};
+var execute = function (abc){
+	abc();
+}
+execute(g);
+
+var g = function(name){
+	console.log("test " + name);
+};
+var execute = function (abc, name){
+	abc(name);
+}
+execute(g, "test1");
+function object:
+var myObj = {
+	"test":true
+};
+myObj.myMethod= function(){
+	console.log("function in object");
+};
+myObj.myMethod();
+}
