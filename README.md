@@ -1,5 +1,4 @@
-# javascript-weekend-4
-Shradha, Sushant, Mudassar, Himanshu, Pooja, Sashikala
+
 
 # Course Content
 ## Introduction to Web
