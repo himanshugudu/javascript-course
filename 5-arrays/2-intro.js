@@ -68,8 +68,3 @@ arr = [{
         'a': 27
     }]]
 ];
-
-console.log('value 56 - ', arr[0]['b']);
-console.log('value 234 - ', arr[1]['c']);
-console.log('value 7 - ', arr[1]['d'][2]);
-console.log('value 27 - ', arr[2][2][1]['a']);
