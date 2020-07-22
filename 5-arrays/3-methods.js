@@ -23,7 +23,7 @@ console.log('\n', concatArr, concatArrUsingPlus, typeof concatArrUsingPlus);
 
 // indexOf
 console.log('--------indexOf----------');
-console.log('index of 2 in arr =', arr.indexOf(2));
+console.log('index of 2 in arr =', arr.indexOf(5));
 console.log('index of 20 in arr =', arr.indexOf(20));
 
 // lastIndexOf
@@ -50,28 +50,28 @@ var sentenceSplit = sentence.split('to')
 console.log('array of "', sentence, '" split by "to" is ', sentenceSplit);
 console.log(sentenceSplit.join('to'));
 
-// pop and push
-console.log('---------push and pop-------------');
-arr.push(10);
-console.log(arr);
-var popElement = arr.pop();
-console.log(popElement, 'is popped out of array', arr);
+// // pop and push
+// console.log('---------push and pop-------------');
+// arr.push(10);
+// console.log(arr);
+// var popElement = arr.pop();
+// console.log(popElement, 'is popped out of array', arr);
 
-// shift and unshift
+// // shift and unshift
 
-// slice
-// first parameter is start index
-// second parameter is end index, however it will be excluded
-var arr3 = arr2.slice(2, 5);
-console.log('-----------SLICE------------');
-console.log('arr2 - ', arr2);
-console.log(arr3);
+// // slice
+// // first parameter is start index
+// // second parameter is end index, however it will be excluded
+// var arr3 = arr2.slice(2, 5);
+// console.log('-----------SLICE------------');
+// console.log('arr2 - ', arr2);
+// console.log(arr3);
 
-// splice method
-// first parameter is start index
-// second parameter is number of items
-console.log('----------SPLICE------------');
-console.log('arr2 -', arr2);
-var arr4 = arr2.splice(2, 2, 'item1', 'item2', 'item3');
-console.log('arr2 -', arr2);
-console.log('arr4 -', arr4);
+// // splice method
+// // first parameter is start index
+// // second parameter is number of items
+// console.log('----------SPLICE------------');
+// console.log('arr2 -', arr2);
+// var arr4 = arr2.splice(2, 2, 'item1', 'item2', 'item3');
+// console.log('arr2 -', arr2);
+// console.log('arr4 -', arr4);

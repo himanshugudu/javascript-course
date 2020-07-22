@@ -58,3 +58,7 @@
         }
     }
 })();
+var fruits = ["apple", "orange", "cherry"];
+fruits.forEach(function (value,key){
+    console.log(value)
+});

@@ -35,22 +35,22 @@ if (arr && typeof arr == 'object' && arr.length && arr instanceof Array) {
 // to get the length of a the array
 console.log('length of arr', arr, 'is ', arr.length, arr['length']);
 
-// to create a empty array you can do this
+// // to create a empty array you can do this
 var emptyArr = []; // this is always preferable
 var emptyArr2 = new Array();
 
-// to add elements to a array
+// // to add elements to a array
 var arr = [123, 234, 345];
-// i want to add a item to the 3rd index
+// // i want to add a item to the 3rd index
 arr[3] = 456; // this is the 4th item at 3rd index
 
-// what if I add a property to the array object
+// // what if I add a property to the array object
 arr['text'] = 'this is a array'; // custom property
 console.log('arr with the text property', arr);
-console.log('length of arr with text property', arr.length, arr['length']);
+// console.log('length of arr with text property', arr.length, arr['length']);
 
 
-// array example with diff datatype
+// // array example with diff datatype
 var arr = [1, 2, 3];
 // value 3 = arr[2];
 arr = [1, 2, {
@@ -68,3 +68,4 @@ arr = [{
         'a': 27
     }]]
 ];
+console.log(arr[2][2][1].a)
