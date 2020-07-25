@@ -38,3 +38,14 @@ function vowel_count(str1)
   return vcount;
 }
 console.log(vowel_count("Welcome to CodeWOrld"));
+
+
+
+function random_item(items)
+{
+  
+return items[Math.floor(Math.random()*items.length)];
+     
+}
+
+var items = [254, 45, 212, 365, 2543];
